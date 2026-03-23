@@ -40,6 +40,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **FAQPage guidance**: Blanket "remove FAQPage on commercial sites" updated to nuanced guidance -- existing FAQPage -> Info priority (not Critical), noting AI/LLM citation benefit. Adding new FAQPage -> not recommended for Google, note AI benefit. Updated in `seo/SKILL.md`, `agents/seo-schema.md`, `seo/references/schema-types.md`.
 - **Uninstall agents list**: Added `seo-geo` to `uninstall.sh` and `uninstall.ps1` removal lists.
 - **Python requirement**: Corrected from `3.8+` to `3.10+` in `README.md` and `docs/INSTALLATION.md`.
+- **Windows installer console encoding**: Replaced non-ASCII status symbols in `install.ps1` (`✓`, `✗`, `↓`, `→`) with ASCII-safe markers (`[DONE]`, `[X]`, `[-->]`).
 
 ### Changed
 - Subagent count: 6 -> 7 (added seo-geo to core audit pipeline)
